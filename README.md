@@ -1,18 +1,9 @@
-# docker_pres_frontend
+# Code for Docker Presentation
 
 ## Setup
 
-    ```
-    $ npm install
-    ```
+Requires Docker.
 
-## Running
-
-    $ npm start 
-
-## Docker
-
-    $ docker build -t docker_pres_frontend .
-    $ docker run -p 8080 docker_pres_frontend
+    $ docker-compose up --build
 
 
